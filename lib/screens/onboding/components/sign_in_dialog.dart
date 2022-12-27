@@ -40,7 +40,7 @@ void showCustomDialog(BuildContext context, {required ValueChanged onValue}) {
                 Column(
                   children: [
                     const Text(
-                      "Sign in",
+                      "Login",
                       style: TextStyle(
                         fontSize: 34,
                         fontFamily: "Poppins",
@@ -72,7 +72,7 @@ void showCustomDialog(BuildContext context, {required ValueChanged onValue}) {
                     const Padding(
                       padding: EdgeInsets.symmetric(vertical: 24),
                       child: Text(
-                        "Sign up with Email",
+                        "Login with Biometrics",
                         style: TextStyle(color: Colors.black54),
                       ),
                     ),
@@ -83,7 +83,7 @@ void showCustomDialog(BuildContext context, {required ValueChanged onValue}) {
                           onPressed: () {},
                           padding: EdgeInsets.zero,
                           icon: SvgPicture.asset(
-                            "assets/icons/email_box.svg",
+                            "assets/icons/biometrics.svg",
                             height: 64,
                             width: 64,
                           ),

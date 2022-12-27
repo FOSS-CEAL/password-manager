@@ -98,7 +98,7 @@ class _SignInFormState extends State<SignInForm> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
-                "Email",
+                "PIN",
                 style: TextStyle(
                   color: Colors.black54,
                 ),
@@ -121,7 +121,7 @@ class _SignInFormState extends State<SignInForm> {
                 ),
               ),
               const Text(
-                "Password",
+                "Confirm PIN",
                 style: TextStyle(
                   color: Colors.black54,
                 ),
